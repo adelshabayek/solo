@@ -1,0 +1,80 @@
+$hovercolor: #0EEAFF;
+$hcolor: #00acee;
+$pcolor: #666;
+$backgroundcolor: #CEF5F7;
+
+
+
+html, body {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0px;
+}
+
+
+/* ----------------------------------------------------------------
+	Page Title
+-----------------------------------------------------------------*/
+
+
+#page-title {
+	position: relative;
+	padding: 4rem 0;
+	background-color: #F5F5F5;
+	border-bottom: 1px solid #EEE;
+
+    .container {
+        position: relative;
+    }
+    
+    h1 {
+        padding: 0;
+        margin: 0;
+        line-height: 1;
+        font-weight: 600;
+        
+        letter-spacing: 1px;
+        color: #333;
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+
+    span {
+        display: block;
+        margin-top: 10px;
+        font-weight: 300;
+        color: #777;
+        font-size: 18px;
+    }
+    
+}
+
+.page-title-right {
+    text-align: right;
+}
+
+.breadcrumb {
+	position: absolute !important;
+	width: auto !important;
+	top: 50% !important;
+	left: auto !important;
+	margin: 0 !important;
+	background-color: transparent !important;
+	padding: 0 !important;
+	font-size: 90%;
+	transform: translateY(-50%);
+    text-decoration: none !important;
+}
+
+.transparent-header + .page-title-parallax .breadcrumb { margin-top: 35px !important; }
+
+.breadcrumb a { color: #555; }
+
+.breadcrumb a:hover { color: #1ABC9C; }
+
+.breadcrumb i { width: auto !important; }
+
+.div-video {
+    padding: 80px 0;
+
+}
