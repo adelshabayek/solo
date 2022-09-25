@@ -1,0 +1,11 @@
+@media (max-width: 450px) {
+    
+    .page-title-right {
+        text-align: center;
+    }
+
+    .breadcrumb {
+        display: none;
+    }
+}
+
